@@ -4,6 +4,12 @@
   <title> Laputa</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+  a:HOVER {     /* 마우스 커서 올렸을때 */
+      color: #8161FF; font-weight: bold;
+    }
+  </style>
+
 </head>
 <body>
   <div id="grid">
@@ -17,35 +23,37 @@
             <area shape="rect" coords="0,107,146,152" href="trip.html">
             <area shape="rect" coords="0,159,146,207" href="diary.html">
             <area shape="rect" coords="0,211,146,254" href="comment.html">
-
     </div>
+
     <div id = "article">
-
       <div id="menu">
-        VALADIVOSTOK 190102~190109
+        LIKE
       </div>
-<div id="main_article">
-
+      <div id="main_article">
       <p>
-        <img src="images/vladi-trip1.jpg" width=300>
-        <img src="images/vladi-trip2.jpg" width=300>
-        <img src="images/vladi-trip3.jpg" width=300>
-        <img src="images/vladi-trip4.jpg" width=300>
+        <p style="background:rgba(255,255,255,0.8); padding-top:20px; padding-bottom:20px;">
+        　no　　　　day　　　　　　　　　　　subject
+        </p>
+        <hr>
 
+        <script>
+        var space=['  　　 　 ','　　　　　　　　　'];
+        var list_day=['141004','130518','170920'];
+        var list_sub=['더크라이 젠틀맨','블락비 단콘','군산대 딘'];
+        var link=['thecry.html'];
+        </script>
 
-        <img src="images/vladi-trip5.jpg" width=300>
+        <script>
+        var i=0;
+        while(i<list_day.length){
+          document.write('　',i+1,'<a href="'+link[i]+'">'+space[0]+list_day[i]+space[1]+list_sub[i]+'</a>');
+          document.write('<hr>');
+          i=i+1;
+        }
+        </script>
       </p>
-
-      <div class="tripdate">
-        <a href="#none"   onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';">TRIP DIARY</a><div style="text-align:left;display:none;font-size:15px;font-family:-윤디자인웹돋움">
-          <br><p style="text-align:left;">성희랑 블라디보스톡~하바롭스크 일주일 여행! 재밌었지만 음식은 입맛에 안 맞았다ㅜㅜ</p><br></div>
-      </div>
-
-
     </div>
   </div>
-
 </div>
-
 </body>
 </html>

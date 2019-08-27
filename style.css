@@ -15,7 +15,7 @@
     a{
       color:black;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 15px;
     }
 
     #active{
@@ -43,6 +43,8 @@
       padding:30px;
       margin-right: 200px;
       background:rgba(255,255,255,0.5);
+      font-size: 15px;
+      font-family: "-윤디자인웹돋움"
     }
 
     #menu{
@@ -63,6 +65,7 @@
       margin-right: 50px;
       background:rgba(255,255,255,0.5);
     }
+
 
     .date{
       padding-left: 70px;
