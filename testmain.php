@@ -27,8 +27,7 @@
 <body onload="rotate()">
         <img src="images/zico1.jpg" id="slide">
           <br>
-            <p style="font-size:15px;">
-
+            <p style="font-size:15px;" >
               ▶INSTAGRAM :
               <a href="https://www.instagram.com/zhmadeinkorea/" target="_blank" style="font-size:15px;">@지혜</a>
               <a href="https://www.instagram.com/zh1oveszm/" target="_blank" style="font-size:15px;">@지미</a><br>
@@ -47,5 +46,4 @@
               }
             ">
 </body>
-
 </html>
